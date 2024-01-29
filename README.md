@@ -1,0 +1,5 @@
+f=open("cities.txt","w)
+f.write("riyadh/n")
+f=open("cities.txt","r")
+print(f.read())
+f.close()
